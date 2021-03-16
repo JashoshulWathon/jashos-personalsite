@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `George / გიორგი`,
-    description: `Sometimes Full-stack developer from Georgia (Country)`,
-    author: `George Davituri`,
+    title: `Jashoshul Wathon`,
+    description: `UI/UX Designer based in Semarang`,
+    author: `Jashoshul Wathon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -71,12 +71,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `George / გიორგი Davituri`,
-        short_name: `George / გიორგი`,
+        name: `jashos`,
+        short_name: `jashos`,
         start_url: `/`,
         display: `standalone`,
         theme_color: `#fff`,
-        icon: `static/assets/world-map.png`
+        icon: `JW |`
       },
     },
     `gatsby-plugin-offline`,

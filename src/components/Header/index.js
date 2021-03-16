@@ -34,7 +34,7 @@ export default class Index extends Component {
                 <div className={style.container}>
 
                     <Link to="/">
-                        <span className={style.logo}>გიორგი</span>
+                        <span className={style.logo}>JW</span>
                     </Link>
 
                     <div className={hamburger} onClick={this.handleOpen}>
@@ -45,12 +45,12 @@ export default class Index extends Component {
 
                     <nav className={navbar}>
                         <ul>
-                            <li><Link activeClassName={line} to="/">Main</Link></li>
-                            <li><Link activeClassName={line} to="/about">About</Link></li>
-                            <li><Link activeClassName={line} to="/contact">Contact</Link></li>
-                            <li><Link activeClassName={line} to="/blog">Blog</Link></li>
+                            <li><Link activeClassName={line} to="/">Home</Link></li>
+                            {/* <li><Link activeClassName={line} to="/about">About</Link></li> */}
+                            <li><Link activeClassName={line} to="/blog">Work</Link></li>
                             <li><Link activeClassName={line} to="/gallery">Gallery</Link></li>
-                            <li><Link activeClassName={line} to="/projects">Projects</Link></li>
+                            <li><Link activeClassName={line} to="/contact">Contact</Link></li>
+                            {/* <li><Link activeClassName={line} to="/projects">Projects</Link></li> */}
                         </ul>
                     </nav>
                 </div>

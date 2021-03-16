@@ -3,73 +3,43 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: radial-gradient(rgb(50, 71, 95)0%, rgb(23, 32, 41) 50%);
-    border-top-right-radius: 50px;
+    // background: #141414;
     
-
-    &::before {
-        content: "";
-        width: 142px;
-        height: 142px;
-        background: radial-gradient(rgba(255, 255, 255, 0)72%, rgb(23, 32, 41) 73%);
-        position: absolute;
-        top: -140px;
-        left: -3px;
-        border-top-right-radius: 100%;
-        border-top-left-radius: 100%;
-        border-bottom-right-radius: 100%;
+    .container {
+        max-width: 1204px;
+        margin: auto;
     }
 
-    .background {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        opacity: 0.4;
-        top: 0px;
-    }
-
-    .menu {
-        position: relative;
-        top: 20px;
+    .contactWrapper {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    
-        h1 {
-            color:white;
-            letter-spacing: 4px;
-            font-size: 18px;
-            padding: 0 40px;
-            font-weight: bold
-        }
-        
-        ul {
-            list-style-type: none;
-            font-size: 14px;
-            line-height: 1.5;
-            letter-spacing: 1px;
-
-            li {
-                a {
-                    text-decoration: none;
-                    color: rgb(96, 141, 187);
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
-        }
+        justify-content: center;
+        padding: 40px;
     }
 
+    .contact {
+        margin-right: 84px;
+
+        &:last-child {
+            margin-right: initial;
+        }
+
+        h3 {
+            margin-bottom: 12px;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 24px;
+        }
+    }
+    
     .copyright {
-       padding: 4rem 0;
-       color: white;
-       display: flex;
-       flex-flow: row wrap;
-       justify-content: center;
-       align-items: center;
+       padding: 40px;
+       color: rgb(196, 196, 196);
+       font-weight: 300;
+       font-size: 14px;
+       text-align: center;
+       background: #141414;
     }
 
 }

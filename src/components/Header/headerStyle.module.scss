@@ -1,8 +1,8 @@
 
 .header {
 	position: relative;
-	background: rgba(65,90,115,0.9);
-	height: 35px;
+	// background: rgba(65,90,115,0.9);
+	height: 40px;
 	padding:  10px 0;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -51,9 +51,9 @@ a {
 	position: relative;
 	font-size: 25px;
 	padding:  22px;
-	background: linear-gradient(to right, #f7fda0, #ff3b3b);
- 	background-clip: text;
- 	-webkit-text-fill-color: transparent;
+	margin-top: 32px;
+	color: #151515;
+	font-weight: bold;
 }
 
 @keyframes logo-spin {
@@ -77,17 +77,17 @@ a {
 	li {
 		display: block;
 		margin-right: 45px;
-		font-size: 1.4rem;
+		font-size: 1.1rem;
 		margin-top: -7%;
 	}
 
 	li::after {
 		content: '';
 		display: block;
-		margin-top: 9%;
+		margin-top: 12px;
 		width: 0;
-		height: 3.1%;
-		background: white;
+		height: 3px;
+		background: #e92979;
 		transition: all 250ms;
 	}
 	 
@@ -96,19 +96,19 @@ a {
 	}
 
 	a {
-		color: #aeb9c2;
+		color: #151515;
 		text-decoration: none;
 		text-align: center;
 
 		&:hover{
-			color: white;
+			color: #e92979;
 		}
 	}
 	
 	.activeButton {
-		color: #ecf1f8;
-		border-bottom: 0.5px solid white;
-		padding-bottom: 10%
+		color: #e92979;
+		border-bottom: 3px solid #e92979;
+		padding-bottom: 12px;
 	}
 }
 

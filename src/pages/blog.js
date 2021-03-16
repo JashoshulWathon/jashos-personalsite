@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Layout from '../components/Layout'
 import Seo from '../components/seo'
 import BlogCard from '../components/BlogCard'
-import SearchBar from '../components/SearchBar'
+// import SearchBar from '../components/SearchBar'
 
 const Search = styled.div`
   position: relative;
@@ -59,9 +59,9 @@ export default class Blog extends Component {
     return (
       <Layout>
         <Seo title='Blog' />
-        <Search> 
+        {/* <Search> 
           <SearchBar searching={this.searchPosts} /> 
-        </Search>
+        </Search> */}
         <Container>
           {this.state.posts.map(({ node }) => (
             <section key={node.id}>
