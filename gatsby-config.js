@@ -76,7 +76,7 @@ module.exports = {
         start_url: `/`,
         display: `standalone`,
         theme_color: `#fff`,
-        icon: `JW |`
+        icon: `static/assets/world-map.png`
       },
     },
     `gatsby-plugin-offline`,
