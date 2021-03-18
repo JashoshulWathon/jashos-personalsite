@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 
 import style from "./blog.module.scss"
@@ -16,13 +16,21 @@ export default function Template({
     <Layout>
         <Seo title={frontmatter.title} description={frontmatter.title} keywords={[frontmatter.seo]}/>
         <div className={style.blog_post}>
-          <h6>{frontmatter.date}</h6>
+          {/* <Link to='/blog'>back to Work</Link> */}
+          <br />
+          <br />
+          <br />
           <h1>{frontmatter.title}</h1>
+          <span>{frontmatter.date}</span>
           <img src={frontmatter.image}/>
           <div
             className={style.post_content}
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <br />
+          <br />
+          <br />
+          <Link style={{ textAlign:'center', fontSize:'2em', display: 'block'}} to='/blog'>back to Work</Link>
         </div>
     </Layout>
   )

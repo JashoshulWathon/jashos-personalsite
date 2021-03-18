@@ -15,10 +15,15 @@
 
     h1 {
         position: inherit;
-        top: -10px;
-        display: flex;
-        flex-flow: row;
-        justify-content: center
+        // top: -10px;
+        // display: flex;
+        // flex-flow: row;
+        // justify-content: center
+    }
+
+    span {
+        font-size: 14px;
+        color: rgb(90, 90, 90);
     }
 
     .post_content {
@@ -31,12 +36,13 @@
        
         h1, h2, h3, h4, h5, h6 {
             padding: 0 7px;
-            color:rgb(38, 40, 44);
+            color: #151515;
         }
         p {
             padding: 7px 25px;
-            font-size: 20px;
-            color: black;
+            font-size: 16px;
+            color: #151515;
+            font-weight: 300;
         }
     }
 }
