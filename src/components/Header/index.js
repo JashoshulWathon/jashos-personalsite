@@ -47,7 +47,7 @@ export default class Index extends Component {
                         <ul>
                             <li><Link activeClassName={line} to="/">Home</Link></li>
                             {/* <li><Link activeClassName={line} to="/about">About</Link></li> */}
-                            <li><Link activeClassName={line} to="/work">Work</Link></li>
+                            <li><Link activeClassName={line} to="/blog">Work</Link></li>
                             <li><Link activeClassName={line} to="/gallery">Gallery</Link></li>
                             <li><Link activeClassName={line} to="/contact">Contact</Link></li>
                             {/* <li><Link activeClassName={line} to="/projects">Projects</Link></li> */}

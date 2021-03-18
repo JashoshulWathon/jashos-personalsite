@@ -5,9 +5,20 @@ import styled from 'styled-components'
 // Components
 import Layout from '../components/Layout'
 import Seo from '../components/seo'
-import WorkCard from '../components/WorkCard'
-// import BlogCard from '../components/BlogCard'
+import BlogCard from '../components/BlogCard'
 // import SearchBar from '../components/SearchBar'
+
+const Search = styled.div`
+  position: relative;
+  top: 20px;
+`
+const Container = styled.div`
+  margin: 40px 0;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+`
 
 export default class Blog extends Component {
 
@@ -51,17 +62,18 @@ export default class Blog extends Component {
         {/* <Search> 
           <SearchBar searching={this.searchPosts} /> 
         </Search> */}
-          <br />
-          <br />
-          <br />
+        <Container>
           {this.state.posts.map(({ node }) => (
-            <WorkCard key={node.id}
-              title={node.frontmatter.title}
-              link={node.frontmatter.path}
-              // tags={node.frontmatter.tags.split(' ')}
-              img={node.frontmatter.image}
-            />
+            <section key={node.id}>
+              <BlogCard
+                title={node.frontmatter.title}
+                path={node.frontmatter.path}
+                tags={node.frontmatter.tags.split(' ')}
+                img={node.frontmatter.image}
+              />
+            </section>
           ))}
+        </Container>
       </Layout>
     )
   }

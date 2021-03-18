@@ -1,12 +1,16 @@
 $m-clr: #e92979;
 $wht: #ffffff;
 .content {
+  position: relative;
   margin-top: 140px;
+  & > div {
+    z-index: 2;
+    max-width: 488px;
+  }
   .title {
     font-size: 9rem;
   }
   p {
-    max-width: 488px;
     margin-bottom: 40px;
     font-weight: 300;
   }
@@ -19,4 +23,12 @@ $wht: #ffffff;
   color: $wht;
   font-weight: 500;
   letter-spacing: .5px;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  z-index: 1;
+
 }
