@@ -50,7 +50,7 @@ a {
 .logo {
 	position: relative;
 	font-size: 25px;
-	padding:  22px;
+	// padding:  22px;
 	margin-top: 32px;
 	color: #151515;
 	font-weight: bold;
@@ -81,15 +81,15 @@ a {
 		margin-top: -7%;
 	}
 
-	li::after {
-		content: '';
-		display: block;
-		margin-top: 12px;
-		width: 0;
-		height: 3px;
-		background: #e92979;
-		transition: all 250ms;
-	}
+	// li::after {
+	// 	content: '';
+	// 	display: block;
+	// 	margin-top: 12px;
+	// 	width: 0;
+	// 	height: 3px;
+	// 	background: #e92979;
+	// 	transition: all 250ms;
+	// }
 	 
 	li:hover::after {
 		width: 100%;
@@ -99,15 +99,16 @@ a {
 		color: #151515;
 		text-decoration: none;
 		text-align: center;
-
-		&:hover{
-			color: #e92979;
-		}
+		font-size: 16px;
+		font-weight: 400;
+		// &:hover{
+		// 	color: #e92979;
+		// }
 	}
 	
 	.activeButton {
 		color: #e92979;
-		border-bottom: 3px solid #e92979;
+		// border-bottom: 3px solid #e92979;
 		padding-bottom: 12px;
 	}
 }

@@ -1,0 +1,22 @@
+.card {
+  width: calc(100%/3 - 40px);
+  height: auto;
+  min-height: 320px;
+  border: 1px solid #eaeaea;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 32px;
+
+  &:nth-child(3n+1) {
+    margin-right: initial;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .content {
+    padding: 16px 20px;
+  }
+}

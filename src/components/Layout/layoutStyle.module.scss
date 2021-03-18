@@ -68,7 +68,8 @@ div[role='group'][tabindex] {
 }
 
 .container {
-	width: 95%;
+	width: 100%;
+	max-width: 1204px;
 	height: 100%;
 	position: relative;
 	padding-right: 0;
