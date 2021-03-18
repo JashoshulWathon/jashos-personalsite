@@ -1,7 +1,7 @@
 ---
 title: Data Science
 date: '2019-03-28'
-path: data-science-2019
+path: work/data-science-2019
 tags: '#Data-Science #AI/ML #RodeMap #tensorflow'
 image: /assets/datascience.jpg
 seo: 'Data Science, ML, tensorflow, AI'
