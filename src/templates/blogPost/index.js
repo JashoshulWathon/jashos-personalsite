@@ -30,7 +30,7 @@ export default function Template({
           <br />
           <br />
           <br />
-          <Link style={{ textAlign:'center', fontSize:'2em', display: 'block'}} to='/blog'>back to Work</Link>
+          {/* <Link style={{ textAlign:'center', fontSize:'2em', display: 'block'}} to='/blog'>back to Work</Link> */}
         </div>
     </Layout>
   )
