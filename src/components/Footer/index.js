@@ -7,7 +7,7 @@ import style from './footerStyle.module.scss'
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
+    <footer id='contact' className={style.footer}>
       <div className={style.container}>
         <div className={style.contactWrapper}>
           <div className={style.contact}>
@@ -19,6 +19,9 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="https://dribbble.com/JashoshulW">Dribbble</a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/jashoshulwathon">Behance</a>
               </li>
               <li>
                 <a href="https://twitter.com/JashoshulW">Twitter</a>
