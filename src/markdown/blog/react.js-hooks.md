@@ -1,7 +1,7 @@
 ---
-title: 'React Hooks'
+title: React Hooks
 date: '2019-05-04'
-path: react.js-hooks
+path: hooks
 tags: '#react.js #javascript #hooks'
 image: /assets/bzu1hz4tglecz9nj8gaj.jpg
 seo: 'react hooks, react.js, javascript'
