@@ -23,4 +23,4 @@ Collaboratively negotiate process-centric e-markets after bleeding-edge potentia
 
 
 
-![](assets/cover.jpg)
+![](assets/tensor.png)
