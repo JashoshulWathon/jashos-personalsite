@@ -1,10 +1,6 @@
 import React from 'react'
 import style from './footerStyle.module.scss'
 
-/**
- * Footer Component
-**/
-
 const Footer = () => {
   return (
     <footer id='contact' className={style.footer}>
