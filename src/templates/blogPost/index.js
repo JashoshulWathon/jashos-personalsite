@@ -16,18 +16,17 @@ export default function Template({
     <Layout>
         <Seo title={frontmatter.title} description={frontmatter.title} keywords={[frontmatter.seo]}/>
         <div className={style.blog_post}>
-          <Link to='/'>back to Work</Link>
-          <h1>{frontmatter.title}</h1>
-          <span>{frontmatter.date}</span>
-          {/* <img src={frontmatter.image}/> */}
-          {console.log('frontt', frontmatter)}
-          {console.log('data', data)}
+          {/* <Link to='/'>back to Work</Link> */}
+          <div>
+            <h1>{frontmatter.title}</h1>
+            <span>{frontmatter.date}</span>
+            {/* <img src={frontmatter.image}/> */}
+          </div>
           <div
             className={style.post_content}
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <Link to='/'>back to Work</Link>
-          {/* <Link style={{ textAlign:'center', fontSize:'2em', display: 'block'}} to='/blog'>back to Work</Link> */}
+          <Link className={style.back} to='/'>Back to Work</Link>
         </div>
     </Layout>
   )
