@@ -23,4 +23,4 @@ Collaboratively negotiate process-centric e-markets after bleeding-edge potentia
 
 
 
-![](assets/Mask Group-1.png)
+![](assets/cover.jpg)
