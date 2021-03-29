@@ -13,7 +13,7 @@ seo: UI/UX Product
 <h7>UI/UX Designer</h7>
 </div>
 
-![clouddecor](assets/Mask Group-1.png "clouddecor")
+![clouddecor](/assets/Mask Group-1.png "clouddecor")
 
 <h5>Subtitle</h5>
 
@@ -23,4 +23,4 @@ Collaboratively negotiate process-centric e-markets after bleeding-edge potentia
 
 
 
-![](assets/tensor.png)
+![](/assets/tensor.png)
