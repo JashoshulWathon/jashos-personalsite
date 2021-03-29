@@ -1,21 +1,18 @@
 ---
-title: Data Science
-date: '2019-03-28'
-path: work/data-science-2019
-tags: '#Data-Science #AI/ML #RodeMap #tensorflow'
-image: /assets/datascience.jpg
-seo: 'Data Science, ML, tensorflow, AI'
+title: Cloud Decor - Multi Channel Product Management
+date: 2021-03-28T17:00:00.000Z
+path: Cloud Decor
+tags: '#UI/UX #Design #Cloud #Assets'
+image: assets/Mask Group-1.png
+seo: UI/UX Product
 ---
-![nope](/assets/Tensorflow-docs.jpg)
+# `Cloud Decor help you manage and publish your products to multi channel easily`
 
 ![](/assets/tensor.png)
 
 ![](/assets/ml.jpg "SageMaker")
 
-### 
-
-[Check it out](https://hackernoon.com/how-it-feels-to-learn-data-science-in-2019-50a7200f4129)
-[Check it out](https://www.techrepublic.com/article/how-to-become-a-machine-learning-engineer-a-cheat-sheet)
+[Check it out](https://hackernoon.com/how-it-feels-to-learn-data-science-in-2019-50a7200f4129) [Check it out](https://www.techrepublic.com/article/how-to-become-a-machine-learning-engineer-a-cheat-sheet)
 
 [Your Home for Data Science](https://www.kaggle.com)
 
