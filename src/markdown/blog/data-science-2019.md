@@ -1,7 +1,7 @@
 ---
 title: Cloud Decor - Multi Channel Product Management
 date: 2021-03-28T17:00:00.000Z
-path: blog/Cloud Decor
+path: clouddecor
 tags: '#UI/UX #Design #Cloud #Assets'
 image: assets/Mask Group-1.png
 seo: UI/UX Product
