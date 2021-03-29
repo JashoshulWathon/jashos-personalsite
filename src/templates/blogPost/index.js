@@ -19,9 +19,9 @@ export default function Template({
           {/* <Link to='/'>back to Work</Link> */}
           <div>
             <h1>{frontmatter.title}</h1>
-            <span>{frontmatter.date}</span>
-            {/* <img src={frontmatter.image}/> */}
+            {/* <span>{frontmatter.date}</span> */}
           </div>
+          {/* <img src={frontmatter.image}/> */}
           <div
             className={style.post_content}
             dangerouslySetInnerHTML={{ __html: html }}
