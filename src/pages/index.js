@@ -75,7 +75,7 @@ export default class Blog extends Component {
           </div>
         </Container>
         <br /><br />
-        <h3 className={style.subtitle}>My work</h3>
+        <h3 id="#work" className={style.subtitle}>My work</h3>
         <Container>
           {this.state.posts.map(({ node }) => (
             <section key={node.id}>
