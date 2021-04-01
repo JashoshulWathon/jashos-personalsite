@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 
 // img
-import cover from '../../static/assets/cover.jpg'
+// import cover from '../../static/assets/cover.jpg'
 
 const Index = () => {
   return (

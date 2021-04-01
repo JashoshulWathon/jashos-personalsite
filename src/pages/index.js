@@ -68,7 +68,7 @@ export default class Blog extends Component {
           <div className={style.content}>
             <div>
               <h2 className={style.title}>Hello,</h2>
-              <p>I am Jashoshul Wathon, a creative designer focused on UX/UI Design based in Semarang. I also have experienced building web pages as a frontend dev. <br /> <br />Casually create illustrations and video animation and always passionate about learning new stuff.</p>
+              <p>I am Jashoshul Wathon, a creative designer focused on UX/UI Design based in Semarang. I also have experienced building web pages as a frontend dev. <br /> <br />Casually create illustrations and video animation. Always passionate about learning new stuff.</p>
               {/* <Link className={style.btn} to="/blog">View work</Link> */}
             </div>
             {/* <img className={style.img} src={cover}></img> */}

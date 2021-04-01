@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-
+// import arr from '../../static/assets/outline_arrow_back_black_24dp.png'
 
 import style from "./blog.module.scss"
 
@@ -26,7 +26,9 @@ export default function Template({
             className={style.post_content}
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <Link className={style.back} to='/'>Back to Work</Link>
+          <div>
+            <Link className={style.back} to='/'>Back to Work</Link>
+          </div>
         </div>
     </Layout>
   )
