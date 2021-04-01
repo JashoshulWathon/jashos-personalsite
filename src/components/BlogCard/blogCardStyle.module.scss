@@ -24,11 +24,12 @@
   }
 
   .content {
-    display: inline-flexbox;
+    // display: inline-flexbox;
     font-size: 0.9rem;
     text-align: left;
     vertical-align: bottom;
     padding: 8px 20px;
+    margin-bottom: 12px;
 
     h4 {
       display: inline-block;
@@ -50,7 +51,8 @@
       vertical-align: bottom;
       color: rgb(93, 93, 93);
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 300;
+      margin-right: 8px;
       // background: rgb(192, 205, 212);
       // border-radius: 10px
     }
