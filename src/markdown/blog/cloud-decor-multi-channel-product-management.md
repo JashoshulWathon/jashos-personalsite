@@ -19,21 +19,24 @@ seo: UI/UX Product
 <h2>Background</h2>
 <p>Harrison Gil is manufacture companies who has problems to manage their products including the assets across multiple online marketplace.
 
-Asset history of a produk tidak tertata dengan benar, sehingga saat ada sebuah produk yg harus kembali ke versi awal.  Mereka kesusahan mencari ke versi awal tersebut.</p>
+Asset history of the product didn't properly being well managed, till there is a product that should have back from the very first version and they couldn't managed it due to missing assets. </p>
 
 <h2>Goals</h2>
-<p>Tujuan utamanya yaitu mendesain platform yang bisa mengelola produk yg ada di berbagai macam market place secara mudah.</p>
+<p>The main goals are to design the platform which could manage the products easily in all over online marketplaces and also to get asset history of a product well managed</p>
+
 <h2>Users</h2>
 <p>Initially, the app would be used by Harrison Gil staff team.</p>
+
 <h2>Defining the process</h2>
-<p>Working with Creative team in Java valley, kami menggunakan metode design thinking yg dipadukan dengan design sprints. Ada 4 process utama yg biasa kami terapkan dalam pengerjaan proyek.</p>
+<p>Working with creative team in Java valley, we were using design thinking approach combining with design sprints.</p>
 
 <h5>1. Discovery</h5>
-<p>Dimana kami melakukan user interview dan white boarding.</p>
+<p>Where we were user interviewing and white boarding.</p>
+
 <h5>2. Analysis</h5>
 <p>Business flow dan user journey mapping.</p>
 
-<h5>3. Concepting</h5>
+<h5>3. Conconceptualize</h5>
 <p>Wireframing, collect client feedback.</p>
 
 <h5>4. Outcome</h5>
@@ -41,20 +44,20 @@ Asset history of a produk tidak tertata dengan benar, sehingga saat ada sebuah p
 
 
 <h2>Discovery & analysis</h2>
-<p>Dalam section ini kami bertemu dengan harrison gil stakeholder untuk melakukan interview dan mempelajari workflow mereka saat ini. Bermodalkan insight itu kami bisa membuat low fidelity yg bisa menggambarkan business flow to work out screen to screen.</p>
+<p>In this section we met with Harisson Gil stakeholders for doing interview and studying their current workflows. Using insight i gathered, we could develop the low fidelity which could potrayed the business flow to work out screen to screen.</p>
 
 ![clouddecor](/assets/discovery.png "clouddecor")
 
 <h2>Concepting</h2>
 <p>
-Kami melakukan wireframed to define information architecture of the screen. i also explored various navigation approach to determine the best experience for user.
+i wireframed to define information of the screen, I also explored various navigation approach to determine the best experience for user. 
 </p>
 
 ![clouddecor](/assets/concepting.png "clouddecor")
 
 <h2>Sprints</h2>
 <p>
-Kami juga melakukan design sprints menggunakan Miro untuk berkolaborasi mengkategorikan informasi apa yang dibutuhkan user berdasarkan prioritas dari yg penting sampai tidak penting. Serta menentukan wireframe yang paling benar dan tepat.
+We also executed design sprints to determine the data that necessary for users. and categorizing those data from the most important to less important.
 </p>
 
 ![clouddecor](/assets/sprint.png "clouddecor")
@@ -62,12 +65,12 @@ Kami juga melakukan design sprints menggunakan Miro untuk berkolaborasi mengkate
 
 <h2>Design Solutions</h2>
 <p>
-Sebagai satu-satunya UX/UI designer dalam project ini saya bertanggung jawab atas high fidelity design. Saya mengeksekusi nya sebagai berikut.
+While I am the only UX/UI designer in this project, I took the responsibility of high fidelity design. here's the design solutions.
 </p>
 
 <h2>Dashboard</h2>
 <p>
-Memberikan warna task sesuai dengan prioritas pekerjaan tersebut. Sehingga user bisa membedakan dengan cepat mana yang harus dikerjakan terlebih dahulu.
+Adding color to task that matches with the priority of that task, so the user can make a quick decission in which one should have been done first. 
 </p>
 
 ![clouddecor](/assets/CloudDecor-dashboard.png "clouddecor")
@@ -76,9 +79,7 @@ Memberikan warna task sesuai dengan prioritas pekerjaan tersebut. Sehingga user 
 
 <h2>Workflow</h2>
 <p>
-Workflow di cloud decor bisa  disesuaikan dengan flow pekerjaan kamu. kamu bisa mudah menentukan asset apa yg akan disimpan pada suatu proses tertentu.
-
-HistorySaat suatu produk ingin rollback lagi ke versi awal, bisa di cari dengan mudah dengan adanya history of uploaded work.
+Workflows in Cloud Decor could be customized following any flows without exceptions. With Work History, user could easily rollback to the old version. 
 </p>
 
 ![clouddecor](/assets/workflow1.png "clouddecor")
@@ -87,7 +88,7 @@ HistorySaat suatu produk ingin rollback lagi ke versi awal, bisa di cari dengan 
 
 <h2>Publish products</h2>
 <p>
-Tak perlu publish satu2 ke masing2 marketplace. Dengan adanya publish cloud decor kamu bisa mudah publish suatu produk ke berbagai online marketplace dengan sekali klik.
+It's not necessary to upload one by one to each of the marketplaces, with this publish cloud decor you can easily publish a product to every online marketplaces with one click. 
 </p>
 
 ![clouddecor](/assets/publish1.png "clouddecor")
@@ -95,7 +96,7 @@ Tak perlu publish satu2 ke masing2 marketplace. Dengan adanya publish cloud deco
 
 <h2>Product master</h2>
 <p>
-Edit produk, semua product di online marketplace otomatis ikut berubah dengan adanya product master. Hanya cukup republish produk yg sudah diedit.
+With this product master, user could edit any product information that will automatically updating to the published online marketplace.
 </p>
 
 ![clouddecor](/assets/master1.png "clouddecor")
@@ -104,14 +105,23 @@ Edit produk, semua product di online marketplace otomatis ikut berubah dengan ad
 
 <h2>Success and evolution</h2>
 <p>
-Dengan adanya Cloud Decor, pekerjaan harrison gil lebih tertata dengan rapi, asset suatu produk akan terus tersimpan meski versinya terus bertambah banyak. sehingga kejadian kehilangan asset suatu produk bisa diminimalisir atau bahkan tidak ada lagi.
+Cloud Decor will be a game changer of the Harisson Gil workflow, assets of the product keep on saved even the oldest version, so the accident of losing an asset of the product could be minimized or even doesn't even exist anymore. 
+While managing a product could be a lot easier because there is the product master which all the data of the products is centralized and synchronized.
 </p>
+
+<h2>Find the Prototype here (video)</h2>
+<a href="https://drive.google.com/file/d/14g5AW5BIlMe7sWTDgggCUq6NkCSGQFJZ/view?usp=sharing">Cloud Decor - Add new product</a>
+<a href="https://drive.google.com/file/d/1PwredsTXd_zuJzdjqN4dY0fFWzk3ppzJ/view?usp=sharing">Cloud Decor - Add new channel</a>
+<a href="https://drive.google.com/file/d/1pW-eSLjXVllzcAH4tA9TkV4GGC_-0eGC/view?usp=sharing">Cloud Decor - Publish product</a>
+<a href="https://drive.google.com/file/d/1aqqexE4OfDSV715uLKstvCu8Q3CrpKyY/view?usp=sharing">Cloud Decor - Upload work</a>
 
 <h2>More images</h2>
 <span></span>
 
 ![clouddecor](/assets/CloudDecor-channels.png "clouddecor")
 ![clouddecor](/assets/CloudDecor-media-library.png "clouddecor")
+![clouddecor](/assets/CloudDecor-my-project.png "clouddecor")
+
 
 </div>
 

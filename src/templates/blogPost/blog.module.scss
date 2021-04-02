@@ -3,6 +3,10 @@
 
 .blog_post {
     margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    max-width: 780px;
 
     .back {
         font-weight: 300;
@@ -55,6 +59,16 @@
         font-weight: 400;
         margin: 8px 0;
         max-width: 780px;
+    }
+
+    a {
+        display: block;
+        text-decoration: underline;
+        margin-bottom: 16px;
+    }
+
+    a + h2 {
+        margin-top: 40px;
     }
 
     h2 + span + p > img {
