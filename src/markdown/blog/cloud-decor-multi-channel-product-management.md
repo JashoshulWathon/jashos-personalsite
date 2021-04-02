@@ -110,10 +110,10 @@ While managing a product could be a lot easier because there is the product mast
 </p>
 
 <h2>Find the Prototype here (video)</h2>
-<a href="https://drive.google.com/file/d/14g5AW5BIlMe7sWTDgggCUq6NkCSGQFJZ/view?usp=sharing">Cloud Decor - Add new product</a>
-<a href="https://drive.google.com/file/d/1PwredsTXd_zuJzdjqN4dY0fFWzk3ppzJ/view?usp=sharing">Cloud Decor - Add new channel</a>
-<a href="https://drive.google.com/file/d/1pW-eSLjXVllzcAH4tA9TkV4GGC_-0eGC/view?usp=sharing">Cloud Decor - Publish product</a>
-<a href="https://drive.google.com/file/d/1aqqexE4OfDSV715uLKstvCu8Q3CrpKyY/view?usp=sharing">Cloud Decor - Upload work</a>
+<a href="https://drive.google.com/file/d/14g5AW5BIlMe7sWTDgggCUq6NkCSGQFJZ/view?usp=sharing" target="_blank">Cloud Decor - Add new product</a>
+<a href="https://drive.google.com/file/d/1PwredsTXd_zuJzdjqN4dY0fFWzk3ppzJ/view?usp=sharing" target="_blank">Cloud Decor - Add new channel</a>
+<a href="https://drive.google.com/file/d/1pW-eSLjXVllzcAH4tA9TkV4GGC_-0eGC/view?usp=sharing" target="_blank">Cloud Decor - Publish product</a>
+<a href="https://drive.google.com/file/d/1aqqexE4OfDSV715uLKstvCu8Q3CrpKyY/view?usp=sharing" target="_blank">Cloud Decor - Upload work</a>
 
 <h2>More images</h2>
 <span></span>
