@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-
+// import arr from '../../static/assets/outline_arrow_back_black_24dp.png'
 
 import style from "./blog.module.scss"
 
@@ -16,21 +16,19 @@ export default function Template({
     <Layout>
         <Seo title={frontmatter.title} description={frontmatter.title} keywords={[frontmatter.seo]}/>
         <div className={style.blog_post}>
-          {/* <Link to='/blog'>back to Work</Link> */}
-          <br />
-          <br />
-          <br />
-          <h1>{frontmatter.title}</h1>
-          <span>{frontmatter.date}</span>
-          <img src={frontmatter.image}/>
+          {/* <Link to='/'>back to Work</Link> */}
+          <div>
+            <h1>{frontmatter.title}</h1>
+            {/* <span>{frontmatter.date}</span> */}
+          </div>
+          {/* <img src={frontmatter.image}/> */}
           <div
             className={style.post_content}
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <br />
-          <br />
-          <br />
-          {/* <Link style={{ textAlign:'center', fontSize:'2em', display: 'block'}} to='/blog'>back to Work</Link> */}
+          <div>
+            <Link className={style.back} to='/'>Back to Work</Link>
+          </div>
         </div>
     </Layout>
   )
