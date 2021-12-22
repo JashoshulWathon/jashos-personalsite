@@ -1,5 +1,5 @@
 ---
-title: My Kampoong - App for traveller
+title: My Kampoong - App for traveller (Coming Soon)
 date: 2021-03-29T03:00:57.017Z
 path: my-kampoong-app-for-traveller
 tags: UI/UX · 2020
